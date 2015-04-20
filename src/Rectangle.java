@@ -16,8 +16,4 @@ public class Rectangle{
         return this.length*this.breadth;
     }
 
-    public static void main(String a[]){
-        Rectangle rectangle = new Rectangle(10,20);
-        System.out.println("Rectangle area is :" + rectangle.getArea());
-    }
 }
